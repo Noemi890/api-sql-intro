@@ -1,5 +1,4 @@
 CREATE TABLE directors (
-  id SERIAL PRIMARY KEY,
-  name TEXT,
-  director_id SERIAL
+  director_id SERIAL PRIMARY KEY UNIQUE,
+  name TEXT
 )
