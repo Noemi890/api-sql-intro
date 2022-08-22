@@ -1,5 +1,5 @@
 CREATE TABLE films (
-  id SERIAL
+  id PRIMARY KEY SERIAL
   title TEXT UNIQUE
   genre TEXT
   release_year INTEGER
